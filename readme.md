@@ -1,10 +1,10 @@
 # scylla: a minimal cli chatgpt client
 
-scylla is a super minimal chatgpt client written in c without external dependencies (except for libcurl and json-c). i named after the sea monster from greek mythology, known for its many heads - symbolizing the multiple conversational turns in a chat. .
+scylla is a super minimal chatgpt client written in c. i named after the sea monster from greek mythology, known for its many heads - symbolizing the multiple conversational turns in a chat. .
 
 <a href="https://i.imgur.com/gIIaMIL.png"><img src="https://i.imgur.com/gIIaMIL.png" width="60%" align="right"></a>
-
-# features
+<br>
+## features
 
 - gpt-3.5-turbo model (ill try to add 4 later on)
 - sends and receives messages
