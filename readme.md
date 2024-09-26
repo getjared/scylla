@@ -4,7 +4,7 @@ scylla is a super minimal chatgpt client written in c without external dependenc
 
 <a href="https://i.imgur.com/gIIaMIL.png"><img src="https://i.imgur.com/gIIaMIL.png" width="60%" align="right"></a>
 
-## features
+# features
 
 - gpt-3.5-turbo model (ill try to add 4 later on)
 - sends and receives messages
