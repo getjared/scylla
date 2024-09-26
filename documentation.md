@@ -40,7 +40,7 @@
 #define COLOR_ITALIC  "\x1B[3m"
 ```
 
-these macros define ansi color codes used for terminal output formatting.
+define ansi color codes used for terminal output formatting.
 
 ## structures
 
@@ -53,7 +53,7 @@ struct MemoryStruct {
 };
 ```
 
-this structure is used to store the response from the api call. it contains a dynamically allocated char array (`memory`) and its size.
+used to store the response from the api call. it contains a dynamically allocated char array (`memory`) and its size.
 
 ## functions
 
@@ -63,7 +63,7 @@ this structure is used to store the response from the api call. it contains a dy
 static size_t WriteMemoryCallback(void *contents, size_t size, size_t nmemb, void *userp);
 ```
 
-this function is a callback used by libcurl to handle the received data from the api. it reallocates memory as needed and appends new data to the `MemoryStruct`.
+callback used by libcurl to handle the received data from the api. it reallocates memory as needed and appends new data to the `MemoryStruct`.
 
 ### print_wrapped
 
@@ -71,7 +71,7 @@ this function is a callback used by libcurl to handle the received data from the
 void print_wrapped(const char *text, int width);
 ```
 
-this function prints text wrapped to a specified width, preserving code blocks.
+prints text wrapped to a specified width, preserving code blocks.
 
 ### render_markdown
 
@@ -79,7 +79,7 @@ this function prints text wrapped to a specified width, preserving code blocks.
 void render_markdown(const char *text);
 ```
 
-this function renders basic markdown formatting in the terminal, including headers, bold, italic, inline code, code blocks, and unordered lists.
+renders basic markdown formatting in the terminal, including headers, bold, italic, inline code, code blocks, and unordered lists.
 
 ### save_conversation
 
@@ -87,7 +87,7 @@ this function renders basic markdown formatting in the terminal, including heade
 void save_conversation(const char *conversation, const char *format);
 ```
 
-this function saves the conversation in the specified format (txt, json, or md). it generates a timestamped filename and writes the conversation to the file.
+saves the conversation in the specified format (txt, json, or md). it generates a timestamped filename and writes the conversation to the file.
 
 ### make_api_request
 
@@ -95,7 +95,7 @@ this function saves the conversation in the specified format (txt, json, or md).
 int make_api_request(CURL *curl, const char *json_string, struct MemoryStruct *chunk, struct curl_slist *headers);
 ```
 
-this function makes the api request to openai. it handles retries in case of failures and populates the `MemoryStruct` with the response.
+makes the api request to openai. it handles retries in case of failures and populates the `MemoryStruct` with the response.
 
 ### main
 
