@@ -27,6 +27,9 @@ scylla is a super minimal chatgpt client written in c. i named after the sea mon
 2. compile the script:
    ```
    gcc -o scylla scylla.c -lcurl -ljson-c
+
+   or just run the makefile
+   make
    ```
 3. make sure to replace the api key in the code with your actual openai api key.
 
