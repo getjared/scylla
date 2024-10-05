@@ -2,7 +2,7 @@
 
 scylla is a super minimal chatgpt client written in c. i named after the sea monster from greek mythology, known for its many heads - symbolizing the multiple conversational turns in a chat. .
 
-<a href="https://i.imgur.com/gIIaMIL.png"><img src="https://i.imgur.com/gIIaMIL.png" width="60%" align="center"></a>
+<a href="https://i.imgur.com/r3g38vl.mp4"><img src="https://i.imgur.com/r3g38vl.mp4" width="60%" align="center"></a>
 
 ## features
 
