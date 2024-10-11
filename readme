@@ -36,7 +36,7 @@ sudo make install
 •  ./scylla
 
 
-§ quick-start
+§ quick-start commands
 
 • save: save the conversation in txt format
 • export json: export the conversation in json format
