@@ -2,7 +2,6 @@
                               scylla.c
                         <simple chatgpt-cli>
 
-
 features:
 • gpt-3.5-turbo model (ill try to add 4 later on)
 • sends and receives messages
@@ -11,18 +10,14 @@ features:
 • minimal external dependencies - only requires libcurl and json-c
 • conversation export in txt, json, and markdown formats
 
-
 § requirements
-
 • gcc compiler
 • libcurl library
 • json-c library
 • a working internet connection
 • openai api key
 
-
 § installation
-
 git clone https://github.com/getjared/scylla.git
 cd scylla
 make
@@ -30,14 +25,10 @@ sudo make install
 
  ./make sure to replace the api key in the code with your actual openai api key.
 
-
 § usage
-
 •  ./scylla
 
-
 § quick-start commands
-
 • save: save the conversation in txt format
 • export json: export the conversation in json format
 • export md: export the conversation in markdown format
